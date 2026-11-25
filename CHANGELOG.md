@@ -1,5 +1,15 @@
 # История изменений Blank
 
+## 0.1.11
+
+### Русский
+
+- Обновлены Puzzles Lib до 26.3.19, Sophisticated Core до 1.5.43.2503 и Sophisticated Storage до 1.5.135.2247.
+
+### English
+
+- Updated Puzzles Lib to 26.3.19, Sophisticated Core to 1.5.43.2503, and Sophisticated Storage to 1.5.135.2247.
+
 ## 0.1.10
 
 ### Русский
