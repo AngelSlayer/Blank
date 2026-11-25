@@ -1,0 +1,17 @@
+{
+  "format": 1,
+  "packs": [
+    {
+      "id": "blank-1",
+      "name": "Blank (1)",
+      "description": "Основная сборка для Minecraft 26.3 и NeoForge.",
+      "url": "https://angelslayer.github.io/Blank/channels/stable.json"
+    },
+    {
+      "id": "test",
+      "name": "Test",
+      "description": "Пустая сборка для проверки каталога и установки.",
+      "url": "https://angelslayer.github.io/test/channels/stable.json"
+    }
+  ]
+}
