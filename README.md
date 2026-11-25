@@ -10,3 +10,8 @@
 
 В новых профилях включены русский язык, шрифт Faithful 32x и шейдер Complementary Unbound.
 
+## Blank Launcher
+
+Собственная версия Riven показывает вкладку **Наши сборки**. Каталог загружается при открытии лаунчера, поэтому новая сборка появляется у игроков после публикации записи в каталоге.
+
+[Релизы Blank Launcher](https://github.com/AngelSlayer/blank-launcher/releases) · [Каталог сборок](https://angelslayer.github.io/Blank/catalog.json)
