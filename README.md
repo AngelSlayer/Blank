@@ -2,6 +2,8 @@
 
 Сборка Minecraft 26.3 для NeoForge 26.3.0.115.
 
+[История изменений сборки](CHANGELOG.md)
+
 ## Установка через Riven
 
 1. Установите [Riven 1.3.2](https://github.com/BX-Team/Riven/releases).
