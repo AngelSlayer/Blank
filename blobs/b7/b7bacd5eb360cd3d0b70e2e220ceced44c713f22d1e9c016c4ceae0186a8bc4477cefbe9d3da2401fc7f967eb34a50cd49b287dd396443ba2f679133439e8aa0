@@ -1,0 +1,23 @@
+	[general.general]
+		#If farting is enabled on this server; Client-side: If farting can be seen at your client.
+		farting = true
+		#The amount of mB that can flow per tick out of machines and items.
+		mbFlowRate = 100
+		#If the broom smash modifier should be enabled to allow breaking blocks.
+		broomSmashEnabled = true
+		#Evil stuff...
+		dieWithoutAnyReason = false
+
+	[worldgeneration.general]
+		#The spawn chance for loot chests in dark temples, set to zero to completely disable.
+		darkTempleChestChance = 0.15
+		#Spawn extra silverfish blocks in all biomes.
+		extraSilverfish = false
+
+	[block.eternal_water]
+		#If the Eternal Water Block should auto-output water to adjacent blocks by default.
+		autoOutputDefault = true
+
+	[machine.blood_infuser]
+		#Priority list of mod id's when determining tag-based recipe outputs.
+		recipeTagOutputModPriorities = []

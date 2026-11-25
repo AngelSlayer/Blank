@@ -1,0 +1,31 @@
+["Recipe settings"]
+	#Disable Advanced Jetpack recipe
+	"Disable Advanced Jetpack recipe" = false
+	#Disable Advanced NanoChestPlate recipe
+	"Disable Advanced NanoChestPlate recipe" = false
+	#Disable GraviChestPlate recipe
+	"Disable GraviChestPlate recipe" = false
+	#Disable AdvancedLappack recipe
+	"Disable AdvancedLappack recipe" = false
+	#Disable UltimateLappack recipe
+	"Disable UltimateLappack recipe" = false
+	#Disable Advanced Dimond Drill recipe
+	"Disable Advanced Dimond Drill recipe" = false
+	#Disable Advanced Chainsaw recipe
+	"Disable Advanced Chainsaw recipe" = false
+	#Disable GraviTool recipe
+	"Disable GraviTool recipe" = false
+	#Disable Vajra recipe
+	"Disable Vajra recipe" = false
+	#Disable Relocator recipe
+	"Disable Relocator recipe" = false
+
+["Vajra settings"]
+	#Disable Vajra accurate mode
+	"Disable Vajra accurate mode" = false
+
+["Relocator settings"]
+	#Disable Relocator translocator mode
+	"Disable translocator mode" = false
+	#Disable Relocator portal mode
+	"Disable portal mode" = false

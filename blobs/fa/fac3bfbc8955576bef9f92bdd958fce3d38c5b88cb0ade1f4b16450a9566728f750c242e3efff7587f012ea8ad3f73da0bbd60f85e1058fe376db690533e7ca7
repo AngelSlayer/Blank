@@ -1,0 +1,12 @@
+#Maximum energy output (EU/t) of the advanced solar panels.
+# Default: 512
+# Range: > 1
+maxEnergyOutput = 512
+#Hard recipes mode. When enabled (default), the advanced solar panel uses the 'irradiant glass pane' recipe.
+#  true  -> irradiant glass pane + irradiant reinforced plate
+#  false -> reinforced glass + irradiant reinforced plate
+hardRecipes = true
+#Easy advanced solar panel recipe. When enabled, replaces the normal advanced solar panel recipe with an easier one using the advanced machine casing.
+#  true  -> reinforced glass + advanced machine casing
+#  false -> uses the recipe selected by hardRecipes
+easyASPRecipe = false

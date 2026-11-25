@@ -1,0 +1,272 @@
+[worldgen]
+	#Enable generation of rubber trees in the world.
+	#If you want to control rubber tree generation on NeoForge,
+	#modify the files under resources/data/ic2r/neoforge/biome_modifier.
+	rubberTree = true
+	#Comma separated list of dimensions to not generate rubber trees in. Does nothing if rubber tree generation is disabled.
+	rubberTreeBlacklist = ""
+	#Factor scaling the IC2R ore generation quantity.
+	# Default: 1.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	oreDensityFactor = 1.0
+	#Factor scaling the IC2R tree generation quantity.
+	# Default: 1.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	treeDensityFactor = 1.0
+	#Enable scaling the generation y levels and quantities to the sea level according to the formula
+	#newValue = configuredValue * sealevel / 64.
+	#The ore density (ratio between stone and ores) will be independent on the world's sea level if enabled.
+	normalizeHeight = true
+	#Maximum amount of chunks to check for retrogen viability each tick.
+	#Retrogen is the retroactive generation of terrain features, e.g. ores and trees.
+	#Set it to 0 to disable retrogen.
+	#When enabling this the recommended value is 16.
+	# Default: 0
+	# Range: > 0
+	retrogenCheckLimit = 0
+	#Maximum amount of chunks to process for retrogen each tick. Values exceeding retrogenCheckLimit are being truncated.
+	# Default: 2
+	# Range: > 0
+	retrogenUpdateLimit = 2
+
+[protection]
+	#Enable logging of players when they remove a machine using a wrench.
+	wrenchLogging = true
+	#Maximum Explosion power of a nuke, where TNT is 4.
+	# Default: 60.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	nukeExplosionPowerLimit = 60.0
+	#Maximum explosion power of a nuclear reactor, where TNT is 4.
+	# Default: 45.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	reactorExplosionPowerLimit = 45.0
+	#Enable the nuke.
+	enableNuke = true
+
+[balance]
+	#Maximum battery tier usable by the miner. 1 = batteries, 2 = lead batteries, 3 = energy crystals, 4 = lapotron crystals.
+	# Default: 1
+	# Range: 1 ~ 4
+	minerDischargeTier = 1
+	#Increase the energy use by the player's inventory weight when going through a teleporter.
+	teleporterUseInventoryWeight = true
+	#Ratio of energy retained inside energy storage block Items when wrenched. 0 (nothing) ... 1 (100%), default 0.8 (80%).
+	# Default: 0.8
+	# Range: 0.0 ~ 1.0
+	energyRetainedInStorageBlockDrops = 0.8
+	#Power tier of the Mass Fabricator.
+	# Default: 3
+	# Range: > 1
+	massFabricatorTier = 3
+	#Power tier of the Matter Fabricator.
+	# Default: 3
+	# Range: > 1
+	matterFabricatorTier = 3
+	#Factor to scale the UU-Matter production energy requirement.
+	# Default: 1.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	uuEnergyFactor = 1.0
+	#Disable the vanilla ender chest, removing existing ones from the world as well.
+	disableEnderChest = false
+	#Comma separated list of blocks and items which should not be turned into scrap by the recycler.
+	#Format: <name> or Tag:<namespace:path> (e.g. Tag:c:ingots/tin), optional *amount suffix.
+	recyclerBlacklist = "minecraft:glass_pane, minecraft:stick, minecraft:snowball, minecraft:snow_layer, minecraft:snow"
+	#Whitelist for blocks/items allowed to be recycled.
+	#The whitelist will be used instead of the blacklist approach if it's non-empty, disallowing everything else.
+	#The format is the same as the blacklist.
+	recyclerWhitelist = ""
+	#Allow to pick blocks up using just a pickaxe instead of needing a wrench.
+	ignoreWrenchRequirement = false
+	#Allow the water slot of water mills to be automated.
+	watermillAutomation = false
+	#How many EU the Chunkloader uses per chunk it loads.
+	# Default: 1.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	euPerChunk = 1.0
+
+		[balance.energy.generator]
+			#Base energy generation factors - increase for higher energy yield.
+			# Default: 1.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			generator = 1.0
+			# Default: 1.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			geothermal = 1.0
+			# Default: 1.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			water = 1.0
+			# Default: 1.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			solar = 1.0
+			# Default: 1.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			wind = 1.0
+			# Default: 1.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			nuclear = 1.0
+			#Semi-fluid generator EU/t multipliers (biogas 16, biomass 8, hydrogen 32, creosote 8; positive values produce at least 1 EU/t; 0 disables that fuel).
+			# Default: 1.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			semiFluidBiogas = 1.0
+			# Default: 1.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			semiFluidBiomass = 1.0
+			# Default: 1.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			semiFluidHydrogen = 1.0
+			# Default: 1.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			semiFluidCreosote = 1.0
+			# Default: 1.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			Stirling = 1.0
+			# Default: 1.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			Kinetic = 1.0
+			# Default: 1.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			radioisotope = 1.0
+
+		[balance.energy.heatgenerator]
+			#Base heat generation factors - increase for higher heat yield.
+			# Default: 1.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			semiFluidBiogas = 1.0
+			# Default: 1.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			solid = 1.0
+			# Default: 1.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			radioisotope = 1.0
+			# Default: 1.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			electric = 1.0
+
+		[balance.energy.kineticgenerator]
+			#Base kinetic generation factors - increase for higher kinetic energy yield.
+			# Default: 1.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			water = 1.0
+			# Default: 1.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			wind = 1.0
+			# Default: 1.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			manual = 1.0
+			# Default: 1.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			steam = 1.0
+			# Default: 1.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			electric = 1.0
+
+		[balance.energy.fluidconversion]
+			#Basically the amount of hU the conversion of one mB of Liquid takes/gives
+			#Lava -> PahoehoeLava
+			# Default: 1.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			heatExchangerLava = 1.0
+			#Hot Coolant <-> Cold Coolant
+			# Default: 1.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			heatExchangerHotCoolant = 1.0
+			#Hot Water <- Water
+			# Default: 1.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			heatExchangerWater = 1.0
+
+		[balance.energy.FluidReactor]
+			#Base Coolant conversion rate for FluidReactors.
+			# Default: 1.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			outputModifier = 1.0
+
+	[balance.SteamKineticGenerator]
+		#Balance value for turbine lifetime in sec. Default 86400 sec = 24h.
+		# Default: 86400
+		# Range: > 0
+		rotorlivetime = 86400
+
+		[balance.steamgenerator.calcification]
+			#Balance values for calcification. Default 100,000 mB water to failure.
+			# Default: 100000
+			# Range: > 0
+			maxcalcification = 100000
+
+	[balance.steamRepressurizer]
+		#Amount (in mb) of standard steam per 10mb of IC2R steam.
+		# Default: 16
+		# Range: > 0
+		steamPerSteam = 16
+		#Amount (in mb) of standard steam per 10mb of IC2R super-heated steam.
+		# Default: 32
+		# Range: > 0
+		steamPerSuperSteam = 32
+
+	[balance.fermenter]
+		#Balance values for Fermenter.
+		# Default: 20
+		# Range: > 0
+		need_amount_biomass_per_run = 20
+		# Default: 400
+		# Range: > 0
+		output_amount_biogas_per_run = 400
+		# Default: 4000
+		# Range: > 0
+		hU_per_run = 4000
+		# Default: 500
+		# Range: > 0
+		biomass_per_fertilizier = 500
+
+[recipes]
+	#Disable IC2R crafting recipes with the specified output, comma separated list.
+	#Non-IC2R recipes can be removed via the purge list below.
+	#Format: <name>[@metadata], e.g. minecraft:bucket to disable IC2R's bucket recipe from tin.
+	disable = ""
+	#Purge all non-IC2R crafting recipes with the specified output, comma separated list.
+	#IC2R recipes can be removed via the disable list above.
+	#Format: <name>[@metadata], e.g. minecraft:tnt to disable crafting tnt.
+	purge = ""
+	#Blacklist for items which the jetpack attachment plate cannot be used on.
+	#The format: <name>, e.g. minecraft:leather_chestplate to disable attaching jetpacks to leather tunics.
+	jetpackAttachmentBlacklist = ""
+	#Enable crafting of IC2R coins, otherwise they have to be spawned in and are thus limited.
+	allowCoinCrafting = true
+	#Allow only IC2R circuits to be used in IC2R's recipes.
+	requireIc2rCircuits = false
+	#Adjust smelting recipes to always output IC2R items if available.
+	smeltToIc2rItems = false
+	#Ignore invalid recipes.
+	ignoreInvalidRecipes = false
+
+[misc]
+	#Enable burning of scrap in a generator.
+	allowBurningScrap = true
+	#Comma separated list with ores the miner should harvest.
+	#Format: <name> or Tag:<namespace:path> (e.g. Tag:c:ores/tin).
+	#Examples: minecraft:torch, minecraft:chest
+	additionalValuableOres = ""
+	#Use the new highly experimental current + voltage energy net model with energy loss. Only set this to true if you know what you are doing.
+	useLinearTransferModel = false
+	#Configure whether energy loss is rounded down to the nearest whole EU or not.
+	roundEnetLoss = true
+	#If you really really really don't want to have your machines explode if you don't pay attention to voltage, you can disable that here.
+	enableEnetExplosions = true
+	#Same for cable meltdown.
+	enableEnetCableMeltdown = true
+
+[debug]
+	#Log whenever wrenching didn't produce any drops.
+	logEmptyWrenchDrops = true
+	#Log incorrect damage applications to items that aren't supposed to ever take damage.
+	logIncorrectItemDamaging = false
+	#Log problems occurring when processing connectivity updates in the energy network.
+	logGridUpdateIssues = true
+	#Log EnergyNet API accesses that aren't read-only - use this to debug IC2R addons.
+	logEnetApiAccesses = false
+	#Log EnergyNet API accesses with stack traces that aren't read-only - use this to debug IC2R addons.
+	logEnetApiAccessTraces = false
+	#Log all energy net connectivity updates in detail.
+	logGridUpdatesVerbose = false
+	#Log problems occurring during energy network calculations.
+	logGridCalculationIssues = true

@@ -1,0 +1,20 @@
+# AdvancedSolarPanels Molecular Transformer Recipes
+# Format: <modid>:<item>;<modid>:<item>;<totalEU>
+# Optional legacy '@meta' (ignored on Minecraft 26.3) and '*count' suffixes are accepted.
+# Lines starting with '#' are comments.
+version=3.0
+minecraft:netherrack;minecraft:gunpowder;70000
+minecraft:coal;minecraft:diamond;9000000
+minecraft:yellow_wool;minecraft:glowstone;500000
+minecraft:red_wool;minecraft:redstone_block;500000
+minecraft:dirt;minecraft:clay;50000
+minecraft:wither_skeleton_skull;minecraft:nether_star;250000000
+minecraft:glowstone_dust;advanced_solar_panels:sunnarium_part;1000000
+minecraft:sand;minecraft:gravel;50000
+minecraft:charcoal;minecraft:coal;60000
+ic2r:silver_ingot;minecraft:gold_ingot;500000
+minecraft:blue_wool;minecraft:lapis_block;500000
+ic2r:tin_ingot;ic2r:silver_ingot;500000
+minecraft:glowstone;advanced_solar_panels:sunnarium;9000000
+minecraft:iron_ingot;ic2r:iridium_ore;9000000
+ic2r:lead_plate; ic2r:alloy; 500000

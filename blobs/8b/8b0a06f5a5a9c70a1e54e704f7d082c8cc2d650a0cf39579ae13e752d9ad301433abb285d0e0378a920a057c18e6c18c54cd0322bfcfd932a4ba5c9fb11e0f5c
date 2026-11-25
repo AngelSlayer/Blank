@@ -1,0 +1,46 @@
+#Default Howler Alarm Range
+# Default: 64
+# Range: > 0
+howlerAlarmRange = 64
+#Max Possible Howler Alarm Range
+# Default: 128
+# Range: > 0
+maxAlarmRange = 128
+#Allowed Alarms
+allowedAlarms = "default,sci-fi,siren"
+#Default Panel Refresh Period
+# Default: 20
+# Range: > 1
+infoPanelRefreshPeriod = 20
+#Default Range Trigger Refresh Period
+# Default: 20
+# Range: > 1
+rangeTriggerRefreshPeriod = 20
+#Default Thermal Monitor Refresh Period
+# Default: 20
+# Range: > 1
+thermalMonitorRefreshPeriod = 20
+#Load Custom Sounds
+useCustomSounds = false
+#Alarm Pause in Ticks
+# Default: 60
+# Range: 10 ~ 2000
+alarmPause = 60
+#Disable Range Check
+disableRangeCheck = false
+#Web Socket Enabled
+wsEnabled = false
+#Web Socket Host
+wsHost = "localhost"
+#Web Socket Port
+# Default: 8000
+# Range: 0 ~ 65535
+wsPort = 8000
+#Web Socket Token
+wsToken = "78c2b80a-1203-43fd-a9af-75cec29f5acf"
+#Web Socket Refresh Rate
+# Default: 100
+# Range: 10 ~ 20000
+wsRefreshRate = 100
+#Web Socket Server ID
+wsServerID = "eaaf55c8-730d-4b8e-8ce2-1bddae525777"

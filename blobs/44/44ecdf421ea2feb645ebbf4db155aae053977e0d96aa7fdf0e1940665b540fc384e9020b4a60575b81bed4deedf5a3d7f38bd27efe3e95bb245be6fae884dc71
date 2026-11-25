@@ -1,0 +1,7 @@
+["HUD settings"]
+	#Enable HUD
+	enableHud = true
+	#HUD position (1-4)
+	# Default: 1
+	# Range: 1 ~ 4
+	hudPosition = 1
