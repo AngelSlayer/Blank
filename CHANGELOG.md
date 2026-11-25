@@ -1,5 +1,16 @@
 # История изменений Blank
 
+## 0.1.10
+
+### Русский
+
+- Добавлен e4all 2.3.0. Хост может открыть одиночный мир для друзей, в том числе для игроков с локальными профилями Blank Launcher.
+
+### English
+
+- Added e4all 2.3.0. Hosts can open a single-player world to friends, including players using local Blank Launcher profiles.
+
+
 ## 0.1.9
 
 ### Русский
