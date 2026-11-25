@@ -1,5 +1,17 @@
 # История изменений Blank
 
+## 0.1.9
+
+### Русский
+
+- Добавлены Energized Power, GeOre, DimStorage, Easy Piglins, Just Zoom и Remove Reloading Screen.
+- Включены библиотеки EdivadLib и Konkrete. Добавлены общие и клиентские конфиги новых модов.
+
+### English
+
+- Added Energized Power, GeOre, DimStorage, Easy Piglins, Just Zoom, and Remove Reloading Screen.
+- Included EdivadLib and Konkrete, along with shared and client configuration files for the new mods.
+
 ## 0.1.8
 
 - Удалён AI Improvements. Из сборки убраны оставшиеся конфиги AI Improvements и Energy Control.
