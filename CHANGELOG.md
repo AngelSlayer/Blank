@@ -1,5 +1,15 @@
 # История изменений Blank
 
+## 0.1.12
+
+### Русский
+
+- Curios API обновлён до 17.0.2 для Minecraft 26.3.
+
+### English
+
+- Updated Curios API to 17.0.2 for Minecraft 26.3.
+
 ## 0.1.11
 
 ### Русский
