@@ -1,5 +1,15 @@
 # История изменений Blank
 
+## 0.1.13
+
+### Русский
+
+- Добавлены Integrated Dynamics 1.33.4, его зависимость Common Capabilities 2.11.8 и Disenchant Anvil 26.0.2.
+
+### English
+
+- Added Integrated Dynamics 1.33.4, its dependency Common Capabilities 2.11.8, and Disenchant Anvil 26.0.2.
+
 ## 0.1.12
 
 ### Русский
