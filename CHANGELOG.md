@@ -1,5 +1,15 @@
 # История изменений Blank
 
+## 0.1.14
+
+### Русский
+
+- Отключён Disenchant Anvil 26.0.2, который мешал запуску на NeoForge 26.3. Для снятия зачарований доступен Disenchanting Table.
+
+### English
+
+- Removed Disenchant Anvil 26.0.2 to fix startup on NeoForge 26.3. Disenchanting Table remains available.
+
 ## 0.1.13
 
 ### Русский
