@@ -1,6 +1,6 @@
 # Blank
 
-Сборка Minecraft 26.3 для NeoForge 26.3.0.115.
+Сборка Minecraft 26.3 для NeoForge 26.3.0.118.
 
 [История изменений сборки](CHANGELOG.md)
 
