@@ -1,5 +1,15 @@
 # История изменений Blank
 
+## 0.1.15
+
+### Русский
+
+- Возвращён Disenchant Anvil 26.0.2 с исправленной регистрацией конфига для NeoForge 26.3.
+
+### English
+
+- Restored Disenchant Anvil 26.0.2 with fixed config registration for NeoForge 26.3.
+
 ## 0.1.14
 
 ### Русский
