@@ -1,5 +1,15 @@
 # История изменений Blank
 
+## 0.1.16
+
+### Русский
+
+- Добавлен Snad: Reforged 0.1.1. Snad и Red Snad ускоряют рост тростника и кактусов по импульсам редстоуна до 16 блоков.
+
+### English
+
+- Added Snad: Reforged 0.1.1. Redstone pulses speed up sugar cane and cactus growth on Snad and Red Snad up to 16 blocks.
+
 ## 0.1.15
 
 ### Русский
