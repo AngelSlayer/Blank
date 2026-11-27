@@ -1,5 +1,16 @@
 # История изменений Blank
 
+## 0.1.20
+
+### Русский
+
+- Добавлен Tooltip Stats 0.1.1. Показывает скорость добычи с учётом зачарований в подсказках инструментов.
+
+### English
+
+- Added Tooltip Stats 0.1.1, which shows mining speed including enchantment bonuses in tool tooltips.
+
+
 ## 0.1.19
 
 ### Русский
