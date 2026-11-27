@@ -1,5 +1,16 @@
 # История изменений Blank
 
+## 0.1.21
+
+### Русский
+
+- Исправлен вылет Disenchant Anvil 26.0.2 при падении наковальни на предметы в Minecraft 26.3. Проверен перенос чар с инструмента на книгу.
+
+### English
+
+- Fixed a Disenchant Anvil 26.0.2 crash when an anvil lands on items in Minecraft 26.3. Verified enchantment transfer from a tool to a book.
+
+
 ## 0.1.20
 
 ### Русский
