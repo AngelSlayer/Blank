@@ -1,5 +1,17 @@
 # История изменений Blank
 
+## 0.1.19
+
+### Русский
+
+- Добавлены Arcforge 2.9.0, Nameless Trinkets 1.1.2 и Silent Gear 4.4.0.
+- Включены зависимости Trinkets Updated 4.2.1 и Silent Lib 13.0.0.
+
+### English
+
+- Added Arcforge 2.9.0, Nameless Trinkets 1.1.2, and Silent Gear 4.4.0.
+- Included the required Trinkets Updated 4.2.1 and Silent Lib 13.0.0 dependencies.
+
 ## 0.1.18
 
 ### Русский
