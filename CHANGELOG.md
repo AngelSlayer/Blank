@@ -1,5 +1,15 @@
 # История изменений Blank
 
+## 0.1.18
+
+### Русский
+
+- Snad: Reforged обновлён до 0.1.2. Этот выпуск поддерживает Minecraft 26.1–26.3 на NeoForge.
+
+### English
+
+- Updated Snad: Reforged to 0.1.2, which supports Minecraft 26.1 through 26.3 on NeoForge.
+
 ## 0.1.17
 
 ### Русский
