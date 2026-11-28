@@ -1,5 +1,16 @@
 # История изменений Blank
 
+## 0.1.25
+
+### Русский
+
+- Аддон Book Trade Finder обновлён до 0.1.3 и теперь называется Trade Cycling: Book Finder.
+
+### English
+
+- Updated Book Trade Finder to 0.1.3 under its new name, Trade Cycling: Book Finder.
+
+
 ## 0.1.24
 
 ### Русский
