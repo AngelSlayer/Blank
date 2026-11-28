@@ -1,5 +1,16 @@
 # История изменений Blank
 
+## 0.1.23
+
+### Русский
+
+- Добавлен Book Trade Finder 0.1.1. Можно выбрать несколько ванильных зачарований, чтобы подсвечивать подходящие книги в сделках библиотекаря.
+
+### English
+
+- Added Book Trade Finder 0.1.1. Select multiple vanilla enchantments to highlight matching books in librarian trades.
+
+
 ## 0.1.22
 
 ### Русский
