@@ -1,8 +1,8 @@
 {
   "$schema": "https://raw.githubusercontent.com/BX-Team/Riven/master/schema/v1/channel.json",
   "format": 1,
-  "version": "0.1.21",
-  "manifest": "../releases/0.1.21.json",
-  "sha512": "1ad453bafb50390be6c6ab59506c9435c549c6f16839909e9b0e9eac7a31e574bbde5d204142859eb876e946ad04a36e9b6d9ea21402b06ee4da9c42763107a2",
+  "version": "0.1.22",
+  "manifest": "../releases/0.1.22.json",
+  "sha512": "3cb6a0114a1dfdb3b092d977ab1c4019237d06ee88710d7608bae57924642e138ddfff2fa1b82f6515be06ac1301aedd8ffa16cb7d4adb10764bac15b3791afb",
   "key": "ed25519:GtgMo6ySAJHuzYOvo2gaNl8ksxXYKMavkgegzw1h1bg"
 }
