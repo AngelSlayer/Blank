@@ -1,5 +1,16 @@
 # История изменений Blank
 
+## 0.1.24
+
+### Русский
+
+- При обновлении сохраняются изменённые игроком настройки Inventory HUD, Inventory Profiles Next, JEI, Jade и других клиентских интерфейсов.
+
+### English
+
+- Pack updates now preserve player-edited settings for Inventory HUD, Inventory Profiles Next, JEI, Jade, and other client interfaces.
+
+
 ## 0.1.23
 
 ### Русский
