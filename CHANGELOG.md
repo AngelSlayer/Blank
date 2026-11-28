@@ -1,5 +1,16 @@
 # История изменений Blank
 
+## 0.1.22
+
+### Русский
+
+- Добавлен Torchmaster: Reforged 0.1.1. Охранный факел блокирует естественный спавн враждебных мобов на 64 блока в каждую сторону. Спавнеры и рейды продолжают работать.
+
+### English
+
+- Added Torchmaster: Reforged 0.1.1. The ward torch blocks natural hostile spawns up to 64 blocks in each direction. Spawners and raids still work.
+
+
 ## 0.1.21
 
 ### Русский
